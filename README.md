@@ -1,1 +1,1 @@
-Basic Git-Search-App using using AdvancedJS concepts. 
+Basic Git-Search-App using AdvancedJS concepts. 
