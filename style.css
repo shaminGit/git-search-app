@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    display: block;
+    background-color: lightskyblue;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+.next {
+    margin-left: .2em;
+    margin-bottom: 2em;
+    font-size: 1em;
+    color: black;
+}
+
+#bottom {
+    display: inline;
+    position: fixed;
+    bottom: 0;
+
+}
+
+#msg {
+    margin-left: 1em;
+}
+
+#display {
+    margin-top: 1em;
+    width: 99%;
+    height: 500px;
+    background-color: white;
+    margin-left: .2em;
+    border: .4em solid lightcoral;
+    overflow: auto;
+    padding-left: .4em;
+}
+
+#i1 {
+    margin-left: .2em;
+    width: 20em;
+    font-size: 1em;
+
+}

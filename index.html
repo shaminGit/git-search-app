@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="text" id="i1" placeholder="Type Here...">
+    <input type="button" onclick="showData();" value="Search Git">
+    <button onclick="location.reload();">Clear</button>
+    <div id='display'>
+        <h1 id="msg"></h1>
+        <pre id="pre">
+            <ol id="myUL"></ol>
+        </pre>
+    </div>
+
+    <div id='bottom'>
+        <input type="button" onclick="previous();" class="next" value="< Previous >">
+        <input type="button" onclick="next();" class="next" value="< Next >">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
